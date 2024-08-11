@@ -1,0 +1,56 @@
+body{
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main{
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 200px;
+    padding: 0px 30px 50px 30px;
+    background-color: antiquewhite;
+    background-size: cover;
+}
+
+.heading{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(70, 54, 247);
+
+}
+
+/* .buttons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-top: 130px;
+} */
+.button-image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+
+button{
+    width: 100px;
+    height: 35px;
+    background:linear-gradient(to right);
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 20px;
+    
+}
